@@ -64,7 +64,7 @@ p{
 /*testimonial section*/
 #testimonials
 {
-    padding: 7% 15%;
+    
     text-align: center;
     background-color: #da7a88;
     color: aliceblue;
@@ -74,6 +74,9 @@ p{
     width: 20%;
     margin: 10px;
     border-radius:100%;
+}
+.carousel-item{
+    padding: 7% 15%;
 }
 #press
 {
