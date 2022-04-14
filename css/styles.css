@@ -12,6 +12,7 @@ h1{
     font-family: "Montserrat-Black";
     font-size: 3rem;
     line-height: 1.5;
+    color: aqua;
 }
 .navbar{
     padding-bottom: 2rem;
@@ -66,7 +67,7 @@ p{
 {
     
     text-align: center;
-    background-color: #da7a88;
+    background-color: #ff4c68;
     color: aliceblue;
 }
 .testimonials-image
@@ -82,12 +83,51 @@ p{
 {
     
     text-align: center;
-    background-color: #da7a88;
+    background-color: #ff4c68;
     padding-bottom: 3%;
 }
 .press-logo
 {
     width: 20%;
     margin: 20px;
+    
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-head{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-icon{
+    color: #ef8172;
+    margin-bottom: 10px 20px;
+}
+
+
+@media (max-width: 1025px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+ {
     
 }
